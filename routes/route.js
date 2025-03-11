@@ -5,7 +5,7 @@ const user =require('../models/users');
 const multer=require('multer');
 const users = require('../models/users');
 const fs=require('fs');
-
+//
 //image upload
  var storage = multer.diskStorage({
     destination:function(req,res,cb){
